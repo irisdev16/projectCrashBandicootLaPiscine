@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/* POLICE CRASH */
+
+@font-face{
+    font-family: "policeCrash";
+    src: url("../font/crash-a-like.ttf");
+}
+
+/* ------------HEADER---------- */
+
+#imageHeader{
+    position: relative;
+    height: 110vh;
+    background-image: url("../img/crash1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imageOpaque{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+}
+
+/* Bouton Achetez maintenant */
+.enfant{
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 2%;    
+    border-radius: 100px;
+    border: solid 2px orange;
+    text-align: center;
+    background-color: yellow;
+    color: white;
+    font-family: "policeCrash";
+    padding: 23px;
+    text-shadow: 1px 1px 0 orange;
+    z-index: 1;
+    
+}
+
+/* Titre milieu */
+.enfantLogo{
+    width: 600px;
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    z-index: 1;
+}
+
+/* Lignes pour le menu déroulant en haut à droite */
+.carre{
+    background-color: yellow;
+    width: 90px;
+    height: 10px;
+    border-radius: 200px;
+    z-index: 1;
+}
+
+.menuLigne1{
+    position: absolute;
+    top: 9%;
+    right: 5%;
+
+}
+
+.menuLigne2{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+
+}
+
+.menuLigne3{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+
+}
+
+/* ------------SECTION 1----------------- */
+
+/* Mise taille de cette section a 80% */
+.section1{
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+
+h2,h1{
+    font-family: "policeCrash";
+    color: orange;
+}
+
+.premierH2{
+    font-size: 35px;
+    margin-bottom: 7%;
+    margin-left: -15%;
+}
+
+/* Taille du perso crash */
+.crash1{
+    width: 150px;
+}
+
+/* Taille de la boite p */
+.paragraphe1{
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+    margin-left: -10%;
+    color: rgb(16, 128, 240);
+
+}
+
+/* Float left pour le premier perso et le p */
+.floatLeft{
+    float: left;
+    /* background-color: green; */
+    margin-left: 20%;
+  
+}
+
+/* Marges pour le p */
+.margin1{
+    margin-left: 10%;
+}
+
+/* Float a droite pour le 2ème perso */
+.floatRight{
+    float: right;
+    margin-right: 15%;
+    /* background-color: green; */
+}
+
+/* ----------------SECTION 2 */
+
+/* Taille remis a 100% pour la section 2 */
+.section2{
+    width: 100%;
+}
+
+/* Creation du carré bleu */
+.carre2{
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+}
+
+/* Taille du perso crash */
+
+.crash2{
+    width: 150px;
+}
+
+/* Position relative et absolu des éléments dans le carré bleu */
+.parent1{
+    position: relative;
+}
+
+.enfantTitreJeuxFantastiques{
+    width: 300px;
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    /* background-color: green; */
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(-20deg);
+}
+
+.enfantCrashHighFive{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    /* background-color: green; */
+}
+
+.enfantTitreEtParagraphe{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    right: 19%;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(20deg);
+    /* background-color: green; */
+
+}
+
+/* ------------------SECTION 3 ----------------- */
+
+h1{
+    /* background-color: green; */
+    text-align: center;
+    padding: 5%;
+    font-size: 50px;
+}
+
+/* Mise taille section 80% */
+
+.section3{
+    width: 80%;
+    margin: auto;
+}
+
+/* Position relative et absolue de cette section */
+
+.parent2{
+    position: relative;
+
+}
+
+.enfantChevron1{
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-size: 200px;
+    /* background-color: green; */
+
+}
+
+.enfantChevron2{
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    color: white;
+    font-size: 200px;
+}
+
+/* -----------FOOTER-------------- */
+
+.masqueTaille{
+    width: 100px;
+}
+
+.tailleLogo{
+    width: 300px;
+}
+
+footer{
+    background-color: orange;
+    height: 200px;
+    margin-top: 5%;
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.floatLeft1{
+    float: left;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    /* background-color: green; */
+}
+
+.marginLien{
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.floatRight1{
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 5%;
+    /* background-color: green; */
+}
